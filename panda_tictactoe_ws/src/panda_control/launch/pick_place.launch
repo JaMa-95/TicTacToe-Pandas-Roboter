@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch>
+
+  <node name="move_robot" pkg="panda_control" type="move_robot" respawn="false" output="screen">
+  </node>
+  
+  <node name="eval_game" pkg="panda_control" type="eval_game" respawn="false" output="screen">
+  </node>
+
+  <node name="compute_pose" pkg="panda_control" type="compute_pose" respawn="false" output="screen">
+  </node>
+
+  <node name="communication_player" pkg="panda_control" type="communication_player" respawn="false" output="screen">
+  </node>
+
+</launch>

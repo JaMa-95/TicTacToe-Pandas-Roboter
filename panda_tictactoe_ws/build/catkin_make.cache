@@ -1,0 +1,2 @@
+moveit_tutorials:panda_control:panda_moveit_config
+-DCATKIN_DEVEL_PREFIX=/home/ubuntuuser/panda_tictactoe_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntuuser/panda_tictactoe_ws/install -G Unix Makefiles

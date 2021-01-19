@@ -1,0 +1,8 @@
+prefix=/home/ubuntuuser/panda_tictactoe_ws/install
+
+Name: panda_control
+Description: Description of panda_control
+Version: 0.0.0
+Cflags: -I/usr/include/eigen3
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs
